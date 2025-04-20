@@ -1,0 +1,280 @@
+@media screen and (min-width:768px) {
+    section {
+        display: flex;
+    }
+
+    section>div {
+        width: 50%;
+        
+    }
+    section>div>div.social-icon>a>i{
+    
+        font-size: clamp(15px, 2vw, 2vw) !important;
+    }
+   
+    
+    section>div>h1 {
+        font-size: clamp(25px, 3vw,3vw);
+        line-height: normal;
+    }
+
+    section>div>h2 {
+        font-size: cLamp(18px, 3vw, 3vw);
+
+    }
+
+    section>div>h1:nth-child(2) {
+        font-size: cLamp(45px, 6vw, 6vw);
+
+
+    }
+
+    section>div>p {
+        padding-right: clamp(0px, 2vw, 30px);
+        margin: 2vh 0;
+        font-size: clamp(8px, 1.5vw, 1.5vw);
+    }
+
+    section>div>div {
+        margin-top: 1.7vh;
+    }
+
+    section>div>img{
+        
+        object-fit: contain;
+       width: 100%;
+    }
+    section>div>div>button {
+        margin-right: 1vw;
+        font-size: cLamp(12px, 1.3vw, 1.3vw)!important;
+        padding: 1vh 1vw;
+    }
+
+    section>div>div>a {
+
+        font-size: cLamp(14px, 1.5vw, 1.5vw);
+    } 
+    header>h1 {
+        font-size: clamp(25px, 2.5vw, 2.5vw);
+    }
+    header>div>img{
+        height:clamp(15px ,5vh,7vh) !important;
+        width: fit-content !important;
+    }
+    header>div>span{
+        font-size: clamp(20px,3vw,3vw);
+    }
+
+    nav>a {
+        font-size: clamp(16px, 2vw, 1.3vw);
+    }
+    header>nav {
+        display: flex;
+        align-items: center;
+    }
+    header>div>button>p {
+        font-size: clamp(15px, 1vw, 1vw) !important;
+        padding: 1.3vh 1.3vw;
+       
+    }
+
+    .controller{
+        display: flex;
+        justify-content: space-between;
+        margin: 0px 5vw;
+        padding: 5vh 10px;
+        border-radius: 10px;
+        box-shadow: 0px 10px 20px -4px rgba(0, 0, 0, 0.308);
+        border: 0px;
+    
+    }
+    .section hr{
+        border: 1px solid;
+    }
+    ;
+    .project{
+        padding: 12vh 0 ;
+    }
+    .about{
+        /* border: 5px solid yellow; */
+        width: 50vw;
+        padding: 0 2vw;
+        /* height: 80vh; */
+    }
+    .about h1{
+        
+        font-weight: bold;
+        font-size: clamp(20px ,3vw,3vw);
+    }
+    .about p{
+        font-size: clamp(15px, 1.2vw,1.2vw)
+    }
+    
+    .image>img{
+       
+        width: 30vw;
+        align-self: center;
+        justify-self: center;
+    }
+    .image{
+        height: fit-content;
+        width: fit-content;
+        /* align-self: center; */
+        justify-self: center;
+    }
+    .about p{
+      text-align: justify;
+
+    }
+    .buttons{
+        /* border: 5px solid red; */
+     
+        display: flex;
+        gap:1.2vw;
+        margin-top: 14px;
+    
+    }
+    .section{
+        padding: 3vh 2vw;
+    }
+    .section h2{
+        font-size: clamp(12px,1.3vw,3vw);
+
+    }
+    .buttons button{
+        font-size: clamp(12px,1.5vw,3vw);
+        border-bottom:  0.5vh solid transparent;
+    }
+
+    .buttons button:hover{
+        border-bottom: 0.5vh solid var(--primary);
+    }
+    #hamburger{
+        display: none;
+    }
+    .sidenav{
+        display: none;
+    }
+   
+    /* skilss section */
+    .upper{
+        /* border: 5px solid cyan; */
+        display: flex;
+        margin: 0px 10px;
+       align-items: center;
+        justify-content:space-between;
+    }
+    .sp{
+        /* border: 5px solid red; */
+        border-radius: 5px;
+        width: 0vw;
+        margin-left: 12px;
+        animation: colorch 4s linear infinite  normal;
+    }
+
+
+ .portion{
+    padding: 1vh ;
+    margin-top: -4vh;
+    padding-bottom: 0;
+ }
+    .card-wrapper {
+        margin: 0 3vw 3vh !important;
+        padding: 0 30px;
+        /* padding: 2vh 5vw; */
+        overflow: hidden;
+      }
+.p-2vh{
+    padding-bottom: 4vh;
+}
+.p-2vh:last-child{
+    padding-bottom: 0vh;
+}
+    .project>div>h1{
+        font-size: clamp(20px ,5vw,5vw);
+    }
+    
+
+  .card-list .card-item .card-link {
+    padding: 1vw;
+    border-radius: 1vw;
+
+  }
+
+
+  .card-list .card-link .card-image {
+    border-radius: 1v;
+  }
+  .card-list .card-link .badge {
+ 
+
+    padding: 1vh 2vw;
+    font-size: clamp(10px,1vw,1vw);
+
+    font-weight: 500;
+  
+    margin: 1vh 0 1.2vh;
+  }
+ 
+.card-list .card-link .card-title {
+    color: var(--text);
+    font-size:clamp(15px,1.5vw,2vw );
+
+  }
+
+  .card-list .card-link .card-button {
+
+width: 2vw;
+height: 2vw;
+font-size: clamp(10px,1.5vw,2vw);
+  }
+
+  .card-wrapper .swiper-pagination-bullet {
+    height: 1vw;
+    width: 1vw;
+    
+ 
+  }
+  .swiper-button-next:after,.swiper-button-prev:after{
+    font-size: clamp(20px,3vw,3vw);
+  }
+  .card-wrapper .swiper-slide-button {
+    color: var(--primary);
+    margin-top:     35px;
+  }
+    .chatc{
+        width: 50vw;
+        padding: 10vh 0;;
+    }
+    .chatc>h1{
+        font-size: clamp(20px ,5vw,5vw);
+        margin-bottom: 2vh;
+    }
+.chatc>p{
+    font-size: clamp(20px ,1.5vw,1.5vw);
+    text-align: justify;
+    margin-bottom: 2vh;
+}
+.chatc>button>a{
+    font-size: clamp(20px ,1.5vw,1.5vw);
+}
+footer>div>div.cd>h3{
+    font-size: clamp(10px,2vw,2vw);
+}
+footer>div>div.cd>ul>li>a{
+    font-size: clamp(10px,1.2vw,1.2vw);
+  
+}
+footer>div>div.cd>ul>li{
+    margin: 2vh 0;
+}
+.foot{
+    padding: 5vh 0;
+}
+.chatc button{
+    padding: 2vh 2vw;
+}
+.foot>hr{
+    display: none;
+}
+}

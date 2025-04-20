@@ -1,0 +1,40 @@
+[
+    {
+      "image": "https://intern-intelligence.github.io/InternIntelligence_Portfolio-Task2-///netflix.png",
+      "badge": "Netflix Clone",
+      "title": "I created a responsive Netflix clone with an attractive UI, dynamic banners, and a working form, showcasing my frontend development skills. 🚀",
+      "link": "https://github.com/Malik-M-Umair/Clone"
+    },
+    {
+      "image": "https://intern-intelligence.github.io/InternIntelligence_Portfolio-Task2-///ecom.png",
+      "badge": "E-Commerce",
+      "title": "Thrilled to launch my E-Commerce Store with a stunning UI, smooth navigation, and a seamless experience! 🛍️💻 Showcasing my frontend skills with a modern, responsive design.🚀",
+      "link": "https://ariesian-tech.github.io/E-Commerce/"
+    },
+    {
+      "image": "https://intern-intelligence.github.io/InternIntelligence_Portfolio-Task2-///movies.png",
+      "badge": "Movies Searcher",
+      "title": "I built a Movie Search Website using HTML, CSS, Bootstrap, and JavaScript with API integration to fetch real-time movie data. It features a dark-themed UI, responsive design, and instant movie search functionality for a smooth user experience! 🚀🎬",
+      "link": "https://github.com/Malik-M-Umair/Linkup"
+    },
+    {
+      "image": "https://intern-intelligence.github.io/InternIntelligence_Portfolio-Task2-///app.png",
+      "badge": "Desktop app",
+      "title": "LinkUp is a Java-based communication app with a database for efficient user data management, offering posting, likes, comments, and password reset features. 💬📱",
+      "link": "https://ariesian-tech.github.io/Movies/"
+    },
+    {
+      "image": "https://intern-intelligence.github.io/InternIntelligence_Portfolio-Task2-///pdf merger.png",
+      "badge": "PDF Merger",
+      "title": "I recently built a PDF Merger Web App using Node.js and Express.js, a simple yet powerful tool that allows users to combine multiple PDFs into a single document within seconds.",
+      "link": "https://github.com/Malik-M-Umair/PDF-merger"
+    },
+    {
+    "image": "https://intern-intelligence.github.io/InternIntelligence_Portfolio-Task2-///bulk.png",
+      "badge": "Bulk Rename",
+      "title": "I have created a Node.js script to bulk rename files on the desktop. It automatically replaces file names using the fs and path modules. 🚀",
+      "link": "https://github.com/Malik-M-Umair/Bulk-renamer"
+    }
+   
+  ]
+  

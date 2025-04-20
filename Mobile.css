@@ -1,0 +1,236 @@
+@media screen and (max-width:767px) {
+    
+
+    section>div>div.social-icon>a>i{    
+        font-size: clamp(15px, 6vw, 40px) !important;
+        margin-right: 1vw;
+    }
+    
+    section>div>h1 {
+        margin-top: 5vh;
+        font-size: clamp(10px, 8vw,40px);
+        line-height: normal;
+    }
+    
+    section>div>h2 {
+        
+        font-size: cLamp(12px, 8vw,40px);
+    
+    }
+    footer>div>div.cd>ul>li{
+        margin: 2vh 0;
+    }
+    
+    section>div>h1:nth-child(2) {
+        font-size: cLamp(20px, 12vw, 70px);
+        margin-top: 1vh;
+    
+    }
+    
+    section>div>p {
+        padding-right: clamp(0px, 2vw, 30px);
+        margin: 2vh 0;
+        font-size: clamp(6px, 4vw, 20px);
+        text-align: justify;
+    }
+    .closebtn {
+   
+        font-size: 36px;
+        color: var(--bg);
+        cursor: pointer;
+    }
+    
+    /* Style the "Menu" text */
+    .menu-text {
+        font-size: 32px;
+        color: var(--bg);
+    
+    }
+    .sidenav>div{
+        display: flex;
+        justify-content: space-between;
+padding: 0 1vw 2vh 1vw;
+         
+    }
+    .sidenav {
+        height: 100%;
+        width: 0;
+        backdrop-filter: blur(10px);
+        position: fixed;
+        z-index: 999;
+        top: 0;
+        right: 0;
+        background-color: rgba(255, 166, 0, 0.301);
+        
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+    }
+    
+    .sidenav a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: black;
+        font-weight: bold;
+    
+        display: block;
+        transition: 0.3s;
+    }
+    
+    .sidenav a:hover {
+        color: var(--text);
+    }
+    
+    section>div>div>.Orange-button {
+        margin-right: 1vw;
+        font-size: cLamp(6px, 14vw, 20px)!important;
+        padding: 1vh 1vw;
+    }
+    
+    section>div>div>a {
+    
+        font-size: cLamp(8px, 5vw, 25px);
+    }
+    .mobile-flex{
+        display: flex;
+        align-items: center;
+        gap: 1vw;
+    }
+    #hamburger{
+        color: var(--primary);
+        font-size: clamp(20px,9vw,35px);
+        
+    }
+    .section hr{
+    border: 1px solid;
+}
+    header>div>img{
+        
+        height:clamp(15px ,4vh,4vh) !important;
+        width: fit-content !important;
+    }
+    header>div>span{
+        font-size: clamp(20px,3vw,3vw);
+    }
+
+    .foot{
+       padding: 2vh 5vw;
+      }
+    header>nav {
+      display: none;
+    }
+    header>div>button>p {
+        font-size: clamp(15px, 1vw, 1vw) !important;
+        padding: .5vh 2vw;
+       
+    }
+    .section-Image{
+        max-width: 95vw;
+    }
+    .image img{
+        display: none;
+    }
+    .controller{
+        width: 90%;
+        margin: auto;
+        padding: 5vh 2vw;
+    }
+    .buttons {
+    margin: 1.5vh 0;
+    display: flex;
+    
+    }
+    .buttons button {   
+        padding: 0vh 1.5vw;
+        margin: 0 1.3vw;
+        background-color: transparent;
+        font-size: clamp(15px, 4vw, 20px) !important;
+    }
+    .about {
+        /* width: 100vw; */
+       /* position: relati
+       ve; */
+       /* right: 200px; */
+       margin-right: auto;
+        /* background-color: red; */
+        
+    }
+    .upper{
+        display: flex;
+        justify-content: space-between;
+    }
+    .about>h1{
+        text-align: center;
+        font-size: clamp(25px,10vw,10vw);
+        margin-bottom: 1.5vh;
+    }
+    .section h2{
+        font-size: clamp(12px,4vw,20px);
+
+    }
+    .about p{
+    
+        text-align: justify;
+        font-size: clamp(14px,1.2vw,1.2vw);
+    }
+
+    .upper{
+        gap: 20px;
+    }
+
+    .p-2vh{
+        padding-bottom: 4vh;
+    }
+    .p-2vh:last-child{
+        padding-bottom: 0vh;
+    }
+    .circle{
+        width: 2vw;
+        height: 2vw;
+        right: 2.25vw !important;
+    }
+   
+    .section{
+        padding: 3vh 2vw;
+    }
+    .portion{
+        padding: 1vh ;
+        margin-top: -4vh;
+        padding-bottom: 0;
+     }
+    .image img{
+        display: none;
+    }
+    .foot{
+        display: flex;
+        flex-direction: column;
+  padding: 2vw;
+    }
+    .chat{
+        padding: 10vh 5vw;
+    }
+    .chatc{
+        width:auto;
+    }
+    .chatc>p{
+        text-align: justify;
+    }
+    .cd{
+        padding: 2vh 3vw;
+    }
+    .chatc button{
+        padding: 2vh 2vw;
+    }
+    /* .ig img{
+
+        border-radius: none;
+        width: 90vw;
+    } */
+    
+   .foot>hr{
+    height: 2px;
+    width: 100%;
+    margin: auto;
+background-color: var(--bg);   }
+    }

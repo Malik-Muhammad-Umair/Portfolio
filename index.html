@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfelio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <!-- Linking SwiperJS CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href="Styles.css">
+    <link rel="stylesheet" href="laptop.css">
+    <link rel="stylesheet" href="Mobile.css">
+
+    
+
+</head>
+
+<body>
+    <!-- Header Section -->
+     <header>
+    <div class="hr">
+        <Img src="https://intern-intelligence.github.io/InternIntelligence_Portfolio-Task2-//logo.svg" alt='logo' loading="lazy"></Img>
+       <span style=" font-weight: bold">Umair </span>
+    </div>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Project</a>
+        <a href="#about">Skills</a>
+       
+    </nav>
+    <div class="sidenav" id="sidenav">
+        <div>
+            <h2 class="menu-text" style="color: orange;">Menu</h2>
+            <span class="closebtn" id="closebtn" style="color: black;"><b>&times;</b></span> <!-- Close button -->
+          
+        </div>
+        <a href="#" onclick="hider()">Home</a>
+        <a href="#about" onclick="hider()">About</a>
+        <a href="#projects" onclick="hider()">Project</a>
+        <a href="#about" onclick="hider()">Skills</a>
+    </div>
+    <div class="mobile-flex">
+        <button class="Orange-button gh"><p><a href="https://chat.whatsapp.com/I96d1xyGLt7BBrQYB1NVUg"  >Hire</a></p></button>
+        
+        <span class="hamburger" id="hamburger">
+            &#9776;
+        </span>
+    </div>
+</header >
+    <!--  Hero Section -->
+   
+ <section>
+        <div>
+            
+            <h1>HI! I`M</h1>
+            <h1>Muhammad <span>Umair</span></h1>
+            <h2>Front-End <span>Developer</span></h2>
+            <p>A passionate frontend developer with a knack for creating beautiful and functional web interfaces. With a strong background in HTML, CSS, and JavaScript, I specialize in using TailwindCSS to build responsive and accessible web applications.</p>
+           
+            <div class="social-icon">
+                <a href="https://github.com/Malik-M-Umair/Malik-M-Umair/blob/main/README.md"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=100052313319324"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.linkedin.com/in/malik-muhammad-umair-4961b1318/"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <div>
+                <button class="Orange-button" ><p><a href="resume.html" >View CV</a></p></button>
+                <a href="https://chat.whatsapp.com/I96d1xyGLt7BBrQYB1NVUg">Let`s talk</a>
+            </div>
+        </div>
+        <div class="ig">
+            <Img class="section-Image" src="my image.png" alt="Vector" loading="lazy" ></Img>
+        </div>
+
+    </section>
+    <!-- About  Section -->
+     <div class="controller">
+        <div class="image ig">
+            <img src="my image.png" alt="Vector">
+        </div>
+        <div class="about" id="about">
+            <h1>About Me</h1>
+            <p>A passionate front-end developer recognized for creativity and innovative web design skills. Excels in implementing sophisticated animation effects, drawing inspiration from industry leaders to create engaging and dynamic user experiences. </p>
+            <div class="buttons">
+                <button class="tabs active" onclick="showSection(event,'skills')">Skills</button>
+                <button class="tabs" onclick="showSection(event,'experience')">Experience</button>
+                <button class="tabs" onclick="showSection(event,'education')">Education</button>
+            </div>
+        
+            <!-- Sections -->
+            <div id="skills" class="section">
+                <hr>
+                <div class="skill">
+                    <div class="p-2vh">
+
+                        <div class="circle"></div>
+                        <div class="portion">
+                            <div class="upper">
+                                <h2>Html->Css->JS->Java</h2>
+                                <h2>83%</h2>
+                            </div>
+                            <div class="sp"></div>
+                            
+                        </div>
+                    </div>
+                    <div class="p-2vh">
+                        <div class="circle"></div>
+                        <div class="portion">
+                            <div class="upper" onclick="changetext(this)">
+                                <h2>Attractive Design</h2>
+                                <h2>80%</h2>
+                            </div>
+                            <div class="sp"></div>
+                        </div>
+                    </div>
+                   <div class="p-2vh">
+                    <div class="circle"></div>
+                    <div class="portion">
+                        <div class="upper">
+                            <h2>Responsiveness</h2>
+                            <h2>78%</h2>
+                        </div>
+                        <div class="sp"></div>
+                    </div>
+                   </div>
+                   
+                </div>
+            </div>
+    
+            <div id="experience" class="section hidden">
+               <hr>
+                <div>
+                    <div class="p-2vh">
+                        <div class="circle"></div>
+                        <div class="portion">
+                          
+                            <div class="space-between">   
+                                
+                                
+                                <h2>Ariesian Tech</h2>
+                                <p><b>2024-2024</b></p>
+                            </div>    
+                            <p><b>Role: </b>Front-End developer</p>
+                            <p><b>Description: </b>I completed a Frontend Development internship at Ariesian Tech, where I gained hands-on experience in responsive design, interactive UI, and modern web technologies. This internship enhanced my problem-solving skills, teamwork, and understanding of real-world development practices. 🚀</p>
+                        </div>
+                    </div>
+                        <div class="circle"></div>
+                        <div class="portion">
+                          
+                            <div class="space-between">   
+                                
+                                
+                                <h2>Intern Intelligence</h2>
+                                <p><b>2025-2025</b></p>
+                            </div>    
+                            <p><b>Role: </b>Front-End developer</p>
+                            <p><b>Description: </b>I am currently doing an internship with Intern Intelligence.</p>
+                        </div>
+                    </div>
+               
+                <!-- <div class="p-2vh">
+                    <div class="circle"></div>
+                    <div class="portion">
+                       
+                        <div class="space-between">   
+                            
+                            <h2>Company name</h2>
+                            <p><b>2024-2027</b></p>
+                        </div>    
+                        <p><b>Role: </b>Front-End developer</p>
+                        <p><b>Discription: </b>Jidher jao nical deta haiy</p>
+                    </div>
+                </div> -->
+               
+               </div>
+                </div>
+                
+            
+    
+            <div id="education" class="section hidden">
+                <hr>
+                <div>
+                    <div class="circle"></div>
+                    <div class="portion">
+                        <div class="space-between">   
+                            
+                            
+                            <h2>Software Engineering</h2>
+                            <p><b>2024-2027</b></p>
+                        </div>    
+                        <p><b>University:</b>
+                            National University of Modern Languages. H-9 Islamabad</p>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+       
+    </div>
+    <div class="project" id="projects">
+
+      <div class="container swiper" id="swiper">
+
+        <h1>Projects!</h1>
+      <div class="container swiper">
+
+        <div class="card-wrapper">
+          <!-- Card slides container -->
+          <ul class="card-list swiper-wrapper">
+            <!-- Cards will be inserted here dynamically by JavaScript -->
+          </ul>
+          <!-- Pagination -->
+          <div class="swiper-pagination"></div>
+          <!-- Navigation Buttons -->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+      </div>
+    </div>
+    </div>
+    <!-- now lets chat
+      -->
+    <div class="chat">
+        <div class="chatc">
+
+            <h1>Let's Chat</h1>
+            <p>Always open to new ideas and exciting opportunities! If you have any questions or want to discuss a project, feel free to reach out.</p>
+            <button><a href="https://chat.whatsapp.com/I96d1xyGLt7BBrQYB1NVUg">Connect with me</a></button>
+        </div>
+        </div>
+       
+    <div class="form-container">
+        <div class="form">
+            <span class="heading">Get in touch</span>
+            <input id="name" placeholder="Name" type="text" class="input">
+            <input id="mail" placeholder="Email" type="email" class="input">
+            <textarea id="message" placeholder="Say Hello" rows="5" class="textarea"></textarea>
+            <div class="button-container">
+                <div id="send-btn" class="send-button">Send</div>
+                <div id="reset-btn" class="reset-button">Reset</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <p>Message Sent Successfully!</p>
+            <button id="close-btn" class="close-btn">OK</button>
+        </div>
+    </div> 
+       
+        <footer>
+            <div class="foot">
+                
+                <div class="cd">
+                    <h3 style="color : var(--bg);">Contact Me</h1>
+                    <ul>
+                        <li><a >Email:</a></li>
+                        <li><a href="#">malikMuhammadUmair6@gmail.com</a></li>
+                        <li><a>Phone no:</a></li>
+                        <li><a href="#">03231538572</a></li>
+                    </ul>
+                </div>
+                <hr>
+                <div class="cd">
+                    <h3 style="color : var(--bg);">Quick Links</h1>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#about">Skills</a></li>
+                    </ul>
+                </div>
+                <hr>
+                <div class="cd">
+                    <h3 style="color : var(--bg);">Social Media</h1>
+                    <ul>
+                        <li><a href="https://chat.whatsapp.com/I96d1xyGLt7BBrQYB1NVUg">Whatsapp</a></li>
+                        <li><a href="https://www.linkedin.com/in/malik-muhammad-umair-4961b1318/">Linkdin</a></li>
+                        <li><a href="https://www.facebook.com/profile.php?id=100052313319324">Facebook</a></li>
+                        <li><a href="https://github.com/Malik-M-Umair/Malik-M-Umair/blob/main/README.md">Github</a></li>
+                    </ul>
+                </div>
+             
+            </div>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+      <script src="poject.js"></script>
+      <script src="js.js"></script>
+    </body>
+    </html>
