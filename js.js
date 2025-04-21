@@ -33,3 +33,28 @@ const hider=()=>{
 hamburger.addEventListener('click',()=>{
      sidenav.style.display="block"
 })
+// loader logic
+let all=document.getElementsByClassName("combo")[0];
+let loader=document.getElementsByClassName("terminal-loader")[0];
+
+// body.hidden=true
+function showspinner(){
+
+  loader.style.display="block"
+
+ all.style.display="none"
+
+ ghq.style.display="none"
+ 
+}
+function hidespinner(){
+    ghq.style.display="block"
+
+  loader.style.display="none"
+
+  all.style.display="block"
+
+  
+}
+showspinner();
+setTimeout(hidespinner,4000);
