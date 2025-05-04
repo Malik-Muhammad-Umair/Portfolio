@@ -34,27 +34,22 @@ hamburger.addEventListener('click',()=>{
      sidenav.style.display="block"
 })
 // loader logic
-let all=document.getElementsByClassName("combo")[0];
-let loader=document.getElementsByClassName("terminal-loader")[0];
+let pl=document.getElementsByClassName('pl')[0];
+let bodyall=document.getElementsByClassName('bodyall')[0];
 
-// body.hidden=true
-function showspinner(){
+let p1= new Promise((resolve,reject)=>{
 
-  loader.style.display="block"
-
- all.style.display="none"
-
- ghq.style.display="none"
- 
-}
-function hidespinner(){
-    ghq.style.display="block"
-
-  loader.style.display="none"
-
-  all.style.display="block"
-
-  
-}
-showspinner();
-setTimeout(hidespinner,4000);
+    resolve(56);
+})
+p1.then((value)=>{
+    bodyall.style.display="none";
+    ghq.style.display="none";
+})
+p1.then((value)=>{
+    setTimeout(()=>{
+         bodyall.style.display="block"
+         pl.style.display="none";
+         cent.style.display="none";
+         ghq.style.display="block";
+    },3500)
+})
